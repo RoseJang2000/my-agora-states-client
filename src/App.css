@@ -1,0 +1,85 @@
+body {
+  width: 100%;
+  height: 100%;
+  color: #111;
+  background-color: #fdfdfd;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  padding-left: 28rem;
+}
+
+.discussion_wrapper,
+.form_container,
+.discussion_notice {
+  width: 100%;
+  padding: 2rem;
+}
+
+.main_bar {
+  position: fixed;
+  left: 0px;
+  width: 28rem;
+  height: 100vh;
+  display: flex;
+  padding: 0rem 2rem;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.agorastates_title {
+  height: 360px;
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #111;
+}
+
+h1 {
+  color: #111;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.7rem;
+  font-weight: 700;
+  margin: 0 0 0;
+  padding: 20px 30px;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.codestates {
+  color: #111;
+  display: block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.3rem;
+  padding-bottom: 2rem;
+  position: relative;
+  text-align: center;
+  z-index: 1;
+}
+
+.codestates:before {
+  border-top: 1px solid #111;
+  content: '';
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.codestates span {
+  background: #fdfdfd;
+  padding: 0 10px;
+}
+
+.discussion_notice {
+  width: 600px;
+  height: 800px;
+}
+
+hr {
+  position: relative;
+  bottom: 2.5rem;
+}

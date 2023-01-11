@@ -1,0 +1,73 @@
+.form_container {
+  width: 100%;
+  height: 100%;
+  background-color: #fdfdfd;
+  display: flex;
+  align-items: center;
+}
+
+.form_question {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 60px;
+}
+
+.form_input-name,
+.form_input-title,
+.form_input-question {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.5rem;
+  margin: 1.3rem;
+}
+
+.form_input-name > label,
+.form_input-title > label,
+.form_input-question > label {
+  margin-bottom: 10px;
+}
+
+.form_input-name > input,
+.form_input-title > input {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.form_input-question > textarea {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  height: 300px;
+  resize: none;
+  font-size: 1rem;
+}
+
+.form_submit {
+  color: #fff;
+  background-color: #111;
+  padding: 1.3rem;
+  border-radius: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+
+.form_submit:hover {
+  background-color: #990000;
+}
+
+.form_question label {
+  color: #990000;
+  font-weight: 500;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #111;
+}

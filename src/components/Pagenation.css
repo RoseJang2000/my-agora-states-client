@@ -1,0 +1,38 @@
+.pagenation {
+  height: 50px;
+  width: inherit;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: none;
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 1.2rem;
+  color: #000;
+  cursor: pointer;
+  background: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 2px;
+}
+button[aria-current] {
+  border: 2px solid #000;
+}
+
+.button_arrow {
+  font-size: 2rem;
+  padding: 0;
+}
+
+.button_arrow:disabled {
+  color: #777;
+  cursor: default;
+}
